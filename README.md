@@ -19,10 +19,15 @@ Examplo:
 Input: arr[] = {10, 1, 10, 3, 10, 1, 1, 2, 3, 3}
 Output: 2
 
+### Explicación
+Primero, se inicializan los arreglos en cero, y después, para cada índice del arreglo inicial, se obtienen otros dos diferentes usando operaciones lógicas (XOR, NOT, AND y OR). Luego, se eliminan los bits similares y se obtiene el valor único. Se puede ajustar para cualquier tamaño de arreglo.
 
 ### Multiplicaciones y divisiones
 Realice un programa donde reciba 2 números enteros sin signo y permita realizar la división o la multiplicación de los
 mismos, usando solamente operadores binarios.
+
+### Explicación
+Primero, se deben introducir los números a multiplicar y dividir, y, mediante el uso de operadores de desplazamiento, se modifican los valores de binario de éstos, y obtienen los resultados correctos. Sin embargo, un detalle importante es que el segundo número operando debe ser la raíz del verdadero, porque es lo que involucra el desplazamiento de bits.
 
 ### Calcule el cuadrado de un número sin utilizar ningún operador numérico.
 
@@ -37,6 +42,9 @@ Output: 49
 Input: n = 12
 Output: 144
 
+### Explicación
+Primero, se introduce el valor del que querramos sacar su cuadrado, y luego, con un número de iteraciones igual al valor que escribimos, en un ciclo se van a detectar todos los bits que sean uno tomando como referencia el contador, los cuales se irán sumando al valor inicial, distribuyendo la potencia en una serie de sumandos, y poco a poco se irá desplazando el valor de las iteraciones hasta que sea menor que cero, y se rompa el ciclo. 
+
 ### Generador de secuencias de Grey Code
 
 Dado un numero N, genera los patrones de bits de 0 a 2^n-1, donde cada patrón sucessivo difiere en 1 bit.
@@ -50,6 +58,8 @@ El siguiente es para una secuencia de 2-bit (n = 2)
   0000 0001 0011 0010 0110 0111 0101 0100 1100 1101 1111 
   1110 1010 1011 1001 1000
 
+### Explicación
+Primero, se inicializa todo en cero, y lo que se hace en el primer ciclo es conocer la cantidad de cifras a utilizar en el espaciado del código, ya que pude variar dependiendo del número entrante. Después, en los arreglos iniciales igualados a cero, se modificarán los valores para que todo esté en binario dentro de éste, usando otro ciclo hasta que el contador rompa el ciclo. Por último, usando la primera función programada, se irán acomodando los valores en binario obtenidos anteriormente en los espacios ya generados, lo que nos permitirá visualizar el código Grey, hasta alcanzar el tope correspondiente.
 
 ### Reporte
 Para esta práctica, reporta un screeshot de la demostración de cada uno de los problemas, así como adjuntando el código
