@@ -64,4 +64,4 @@ Se realizará un screenshoot de cada una de la resolución de cada uno de los pr
 explicando la solución y ejecutandola para validar su comprobación.
 
 ## Conclusion
-En esta sección, deberás añadir las conclusiones, sugerencias y/o problemas de las actividades de laboratorio. 
+En esta práctica, todos los códigos lograron ser ejecutados, según las instrucciones de cada uno para su realización. En prácticamente todas hubo problemas, más que nada, en relación a la inicialización de variables y estructura del código. También tuve complicaciones para cumplir con los requisitos que pedían los ejercicios dos y tres, pues me daba cuenta de que usé algo que no debía, y eso lo tuve que cambiar. Estuvo más complicado el cuatro, pues involucraba muchas cosas que yo no conocía y que tuve que investigar por mi cuenta. Hubiera preferido que los ejercicios hayan sido más fáciles, pues, al menos yo, sí batallé con la lógica y manera para resolverlos.
